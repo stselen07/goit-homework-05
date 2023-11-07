@@ -614,14 +614,14 @@ input::placeholder {
 .button-close:hover .icon-close {
     fill: #fff;
 }
-.modal-title {
+.modal-tittle {
     text-align: center;
     margin-bottom: 16px;
     color: #2e2f42;
     font-size: 16px;
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 .modal-field {
     margin-bottom: 8px;
@@ -755,7 +755,9 @@ input::placeholder {
 }
 .modal-button-send:hover {
     background-color: #404bbf;
+    fill: #ffffff;
 }
 .modal-button-send:focus {
     background-color: #404bbf;
+    fill: #ffffff;
 }
