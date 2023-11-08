@@ -605,6 +605,8 @@ input::placeholder {
 .button-close:hover > .icon-close,
 .button-close:focus > .icon-close {
     fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 .icon-close {
     fill: #2e2f42;
