@@ -602,18 +602,19 @@ input::placeholder {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-close:hover > .icon-close,
-.button-close:focus > .icon-close {
-    fill: #ffffff;
-    background-color: #404bbf;
-    border: none;
+.button-close:hover,
+.button-close:focus {
+    background-color: #404BBF;
+    border: none
+}
+
+.button-close:hover>.icon-close,
+.button-close:focus>.icon-close {
+    fill: #FFFFFF;
 }
 .icon-close {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button-close:hover .icon-close {
-    fill: #ffffff;
 }
 .modal-tittle {
     text-align: center;
